@@ -3,6 +3,7 @@ import searchRepo from "../services/github";
 import Layout from "../components/Layout";
 import Search from "../components/Search";
 import Repositories from "../components/Repositories";
+import Loader from "../components/Loader";
 
 function index() {
 	const [repos, setRepos] = useState(null);
@@ -57,6 +58,7 @@ function index() {
 		<Layout>
 			<Search onChange={handleInputChange} values={inputValues} />
 			<Repositories isLoading={isLoading} repos={repos} />
+			{isLoading && <Loader />}
 		</Layout>
 	);
 }
