@@ -1,0 +1,22 @@
+.repositories {
+	min-width: 100%;
+	margin: 50px auto;
+}
+
+.repositories > ul {
+	width: 100%;
+
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.loading {
+	display: none;
+	opacity: 0;
+}
+
+.false {
+	background: red;
+}

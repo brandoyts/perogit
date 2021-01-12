@@ -1,0 +1,17 @@
+.header {
+	background-color: #072d58;
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.header__logo {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}

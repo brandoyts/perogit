@@ -1,0 +1,13 @@
+[
+	{ "title": "Javscript", "value": "javascript" },
+	{ "title": "React.js", "value": "react" },
+	{ "title": "Vue.js", "value": "vue" },
+	{ "title": "Angular", "value": "angular" },
+	{ "title": "Python", "value": "phyton" },
+	{ "title": "Java", "value": "java" },
+	{ "title": "Assembly", "value": "assembly" },
+	{ "title": "Typescript", "value": "typescript" },
+	{ "title": "Next.js", "value": "next" },
+	{ "title": "C", "value": "c" },
+	{ "title": "C++", "value": "c++" }
+]
